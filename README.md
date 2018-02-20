@@ -7,9 +7,9 @@ An application made with ReactJS for educational purposes only. You can enter th
 1. Clone or download this repository to your local machine. You can do this with your terminal or downloading a ZIP file.
     * If you choose the terminal way, you should click the Clone or download green button in this page, copy the url and in your terminal type: 'git clone pasteURL'
 
-2. Now that you have the project in your local machine, go into the project's folder (through your terminal, by doing cd project's path) and run the command 'npm start'
+2. Now that you have the project in your local machine, go into the project's folder (through your terminal, by doing cd project's path) and run the command 'npm install'. This will install the dependencies needed for this project.
 
-3. By doing so, you will be able to run a local server, probably based on PORT 8080 (check your terminal). Then, you just have to go into any browser and type 'localhost:8080'
+3. After thatm you are ready to run the command 'npm start'. By doing so, you will be able to run a local server, probably based on PORT 8080 (check your terminal). Then, you just have to go into any browser and type 'localhost:8080'
 
 4. Hopefully you can see the application running :smile:
 
