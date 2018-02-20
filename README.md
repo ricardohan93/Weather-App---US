@@ -1,25 +1,30 @@
-# ReduxSimpleStarter
+## Weather App
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+An application made with ReactJS for educational purposes only. You can enter the name of any american city and after pressing ENTER or clicking on the 'search' button, charts containing data such as temperature, humidity and pressure will be returned. Those charts are made with Sparklines library and the weather data is fetched from [openweathermap](https://openweathermap.org/)
 
-### Getting Started
+## How to run
 
-There are two methods for getting started with this repo.
+1. Clone or download this repository to your local machine. You can do this with your terminal or downloading a ZIP file.
+    * If you choose the terminal way, you should click the Clone or download green button in this page, copy the url and in your terminal type: 'git clone pasteURL'
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+2. Now that you have the project in your local machine, go into the project's folder (through your terminal, by doing cd project's path) and run the command 'npm start'
 
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
+3. By doing so, you will be able to run a local server, probably based on PORT 8080 (check your terminal). Then, you just have to go into any browser and type 'localhost:8080'
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+4. Hopefully you can see the application running :smile:
 
-```
-> npm install
-> npm start
-```
+## Learnings
+
+As the main goal of this application was to learn more about ReactJS, I will point out some of the interesting concepts I was able to learn:
+
+* ReactJS basic concepts such as components, lifecycle methods and states
+* Lodash library
+* Fetch data from an API
+* Work with googleMaps API
+* Sparklines for creating charts
+
+## Tribute
+
+This project was based on a Stephen Grider course named 'Modern React with Redux'. Also, the boilerplate structure was cloned from his github repository [here](https://github.com/StephenGrider)
+
+Thank you Stephen!
